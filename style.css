@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    padding-top: 56px;
+    font-size: 120%;
+}
+
+.navbar-brand a {
+    color:rgba(0, 0, 0, .9);
+    text-decoration-line: none;
+}
+
+.bg-container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#company dl dt {
+    margin-top: 1em;
+}
+#company dl dd {
+    margin-left: 5em;
+}
+
+#footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
