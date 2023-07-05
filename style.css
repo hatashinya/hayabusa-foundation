@@ -2,7 +2,21 @@
 
 body {
     padding-top: 100px;
-    font-size: 120%;
+    font-size: 100%;
+}
+
+.h3, h3 {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 120%;
+    }
+
+    .h3, h3 {
+        font-size: 1.75rem;
+    }
 }
 
 .navbar-brand a {
@@ -17,6 +31,11 @@ body {
 
 #logo {
     width: 260px;
+}
+
+#navbarMenu .link {
+    padding: 0 0.5em;
+    color: black;
 }
 
 main .container ul li {
