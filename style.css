@@ -19,10 +19,22 @@ body {
     width: 260px;
 }
 
-#company dl dt {
+main .container ul li {
     margin-top: 1em;
 }
-#company dl dd {
+
+main .container ul li.sub {
+    margin-top: 0;
+}
+
+#projects .follows {
+    font-size: 80%;
+}
+
+#foundation dl dt {
+    margin-top: 1em;
+}
+#foundation dl dd {
     margin-left: 5em;
 }
 
