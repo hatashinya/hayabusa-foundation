@@ -38,6 +38,10 @@ body {
     color: black;
 }
 
+main .container ul {
+    margin-bottom: 1em;
+}
+
 main .container ul li {
     margin-top: 1em;
 }
