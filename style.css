@@ -35,8 +35,12 @@ body {
 }
 
 #navbarMenu .link {
-    padding: 0 0.5em;
+    padding: 0 0.68em 0 0;
     color: black;
+}
+
+#navbarMenu .link:last-child {
+    padding: 0;
 }
 
 main .container ul {
@@ -55,6 +59,16 @@ main .container ul li.sub {
     font-size: 80%;
 }
 
+#athlete-list th {
+    border: 1px solid #999;
+    padding: 0.2em 0.5em;
+}
+
+#athlete-list td {
+    border: 1px solid #999;
+    padding: 0.2em 0.5em;
+}
+
 #foundation dl dt {
     margin-top: 1em;
 }
@@ -65,4 +79,13 @@ main .container ul li.sub {
 #footer {
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+#footer p.sns {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.btn.twitter-x {
+    padding: 0.4em 0.5em;
 }
