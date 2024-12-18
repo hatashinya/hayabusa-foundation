@@ -51,8 +51,9 @@ main .container ul li {
     margin-top: 1em;
 }
 
-main .container ul li.sub {
-    margin-top: 0;
+.border-table td {
+    border: 1px solid #999;
+    padding: 0.2em 0.4em;
 }
 
 #projects .follows {
@@ -68,6 +69,18 @@ main .container ul li.sub {
 .person-list td {
     border: 1px solid #999;
     padding: 0.4em 1em;
+}
+
+#athlete-2025-guide h5 {
+    margin-top: 1em;
+}
+
+#athlete-2025-guide li {
+    margin-top: 0.2em;
+}
+
+#athlete-2025-guide td:first-child {
+    width: 10em;
 }
 
 #foundation dl dt {
