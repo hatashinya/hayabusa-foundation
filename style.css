@@ -71,16 +71,25 @@ main .container ul li {
     padding: 0.4em 1em;
 }
 
-#athlete-2025-guide h5 {
+.athlete-guide h5 {
     margin-top: 1em;
 }
 
-#athlete-2025-guide li {
+.athlete-guide .container ul li {
     margin-top: 0.2em;
 }
 
-#athlete-2025-guide td:first-child {
+.athlete-guide td:first-child {
     width: 10em;
+}
+
+.program-header {
+    display: inline-block;
+    width: 8em;
+}
+
+.program-row {
+    height: 2rem;
 }
 
 #foundation dl dt {
