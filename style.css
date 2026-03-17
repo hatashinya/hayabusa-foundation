@@ -9,6 +9,10 @@ body {
     font-size: 1.5rem;
 }
 
+.line-through {
+    text-decoration: line-through;
+}
+
 @media (min-width: 768px) {
     body {
         font-size: 120%;
