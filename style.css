@@ -89,7 +89,7 @@ main .container ul li {
 
 .program-header {
     display: inline-block;
-    width: 8em;
+    width: 8rem;
 }
 
 .program-row {
@@ -115,4 +115,9 @@ main .container ul li {
 
 .btn.twitter-x {
     padding: 0.4em 0.5em;
+}
+
+.w-12rem {
+    display: inline-block;
+    width: 14rem;
 }
